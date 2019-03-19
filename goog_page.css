@@ -1,0 +1,58 @@
+body{
+  font-family: Arial;
+  font-size: 16px;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+main{
+
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}
+
+li{
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.left{
+
+}
+
+.right{
+  float: right;
+}
+
+.search_button{
+
+}
+
+#search_bar{
+
+}
