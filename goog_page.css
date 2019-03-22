@@ -1,58 +1,68 @@
 body{
   font-family: Arial;
-  font-size: 16px;
 }
 
 header{
   position: fixed;
-  top: 0;
-  width: 100%
-}
-
-main{
-
+  top: 10px;
 }
 
 footer{
   position: fixed;
   bottom: 0;
-  width: 100%;
+  left: 0;
   border: 1px solid #e7e7e7;
   background-color: #f3f3f3;
+  width: 100%;
 }
 
 ul{
   list-style-type: none;
   margin: 0;
-  padding: 0
+  padding: 0;
+  width: 100%;
 }
 
 li{
   display: inline;
-  margin: 10px;
   padding: 10px;
 }
 
 a{
   text-decoration: none;
+  color: grey;
 }
 
 a:hover{
   text-decoration: underline;
 }
 
-.left{
-
+header .right{
+  position: fixed;
+  right: 20px;
+  top: 10px;
 }
 
-.right{
-  float: right;
+footer .right{
+  position: fixed;
+  right: 20px;
+  bottom: 0;
 }
 
-.search_button{
-
+main{
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  top: 33%;
 }
 
 #search_bar{
+  width: 400px;
+  height: 15px;
+  margin: 10px;
+}
 
+.search_button{
+  margin: 10px;
+  padding: 5px;
 }
